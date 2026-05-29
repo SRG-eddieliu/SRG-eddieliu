@@ -4,10 +4,6 @@ UC Berkeley MFE | CFA Charterholder | ASA
 
 I build systematic investing and AI-assisted quantitative research systems.
 
-My work focuses on connecting:
-
-`Data -> Signals -> Backtesting -> Portfolio Construction -> Risk Management -> Research Automation`
-
 ## Research Interests
 
 - Systematic equity investing
@@ -46,4 +42,4 @@ Core workflow:
 - CFA Charterholder
 - Associate of the Society of Actuaries
 
-Professional experience across quantitative risk analytics, treasury and balance sheet management, rates/ALM, and valuation model development.
+Professional experience across quantitative risk analytics, treasury and balance sheet management, and pricing model development.
