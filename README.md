@@ -18,7 +18,7 @@ My work focuses on connecting:
 - Agentic research workflows
 - AI-assisted quantitative investing
 
-## Current Flagship
+## Current Focus
 
 **Systematic Alpha Lab**  
 An in-progress AI-assisted systematic research platform for factor research, alpha generation, portfolio construction, backtesting, attribution, and research memo generation.
