@@ -11,28 +11,6 @@ repo_exists() {
   gh repo view "$1" >/dev/null 2>&1
 }
 
-pin_repo() {
-  local repo="$1"
-  local repo_id
-  repo_id="$(gh api graphql \
-    -f owner="$owner" \
-    -f name="$repo" \
-    -f query='
-      query($owner: String!, $name: String!) {
-        repository(owner: $owner, name: $name) { id }
-      }' \
-    --jq '.data.repository.id')"
-
-  gh api graphql \
-    -f repoId="$repo_id" \
-    -f query='
-      mutation($repoId: ID!) {
-        pinRepository(input: { repositoryId: $repoId }) {
-          repository { nameWithOwner }
-        }
-      }' >/dev/null
-}
-
 main() {
   require_auth
 
@@ -66,11 +44,20 @@ main() {
     --add-topic financial-machine-learning \
     --add-topic time-series
 
-  pin_repo "quantlab_step0_intro"
-  pin_repo "OptionPricer"
-  pin_repo "rnn-volatility-lab"
+  gh api graphql \
+    -f login="$owner" \
+    -f query='
+      query($login: String!) {
+        user(login: $login) {
+          pinnedItems(first: 6, types: REPOSITORY) {
+            nodes { ... on Repository { nameWithOwner } }
+          }
+        }
+      }' \
+    --jq '.data.user.pinnedItems.nodes[].nameWithOwner'
 
-  echo "GitHub profile README, repository metadata, and available pins updated."
+  echo "GitHub profile README and repository metadata updated."
+  echo "Note: GitHub does not expose a supported public API for changing profile repository pins. Adjust pins in the GitHub profile UI if needed."
 }
 
 main "$@"
