@@ -20,7 +20,7 @@ My work focuses on connecting:
 
 ## Current Flagship
 
-**QuantLab / Systematic Alpha Lab**  
+**Systematic Alpha Lab**  
 An in-progress AI-assisted systematic research platform for factor research, alpha generation, portfolio construction, backtesting, attribution, and research memo generation.
 
 Core workflow:
@@ -31,7 +31,7 @@ Core workflow:
 
 | Project | Status | Focus |
 | --- | --- | --- |
-| [QuantLab](https://github.com/SRG-eddieliu/quantlab_step0_intro) | In progress | AI-assisted systematic research platform |
+| [Systematic Alpha Lab](https://github.com/SRG-eddieliu/systematic-alpha-lab) | In progress | AI-assisted systematic research platform |
 | [OptionPricer](https://github.com/SRG-eddieliu/OptionPricer) | Demo-ready | C++ derivatives pricing engine |
 | RNN Volatility Lab | In progress | Volatility forecasting |
 | Transformer SAC Portfolio Allocation | Planned | Reinforcement learning allocation research |

@@ -30,7 +30,7 @@ main() {
     --add-topic monte-carlo \
     --add-topic derivatives
 
-  gh repo edit "$owner/quantlab_step0_intro" \
+  gh repo edit "$owner/systematic-alpha-lab" \
     --description "In-progress AI-assisted systematic alpha research platform for factors, signals, portfolio construction, backtesting, and research automation." \
     --add-topic systematic-investing \
     --add-topic quant-research \
