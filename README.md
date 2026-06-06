@@ -1,7 +1,5 @@
 # Eddie Liu
 
-UC Berkeley MFE | CFA Charterholder | ASA
-
 I build systematic investing and AI-assisted quantitative research systems.
 
 ## Research Interests
@@ -41,5 +39,3 @@ Core workflow:
 - Waterloo Mathematics
 - CFA Charterholder
 - Associate of the Society of Actuaries
-
-Professional experience across quantitative risk analytics, treasury and balance sheet management, and pricing model development.
