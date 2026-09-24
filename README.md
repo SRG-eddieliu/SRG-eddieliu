@@ -1,41 +1,33 @@
 # Eddie Liu
 
-I build systematic investing and AI-assisted quantitative research systems.
+Quantitative research, derivatives pricing, and financial data engineering.
 
-## Research Interests
+UC Berkeley MFE | CFA Charterholder | Associate of the Society of Actuaries
 
-- Systematic equity investing
-- Multi-asset portfolio allocation
-- Financial NLP
-- Reinforcement learning for portfolio optimization
-- Volatility forecasting
-- Agentic research workflows
-- AI-assisted quantitative investing
-
-## Current Focus
-
-**Systematic Alpha Lab**  
-An in-progress AI-assisted systematic research platform for factor research, alpha generation, portfolio construction, backtesting, attribution, and research memo generation.
-
-Core workflow:
-
-`Data Ingestion -> Feature Engineering -> Signal Generation -> Factor Evaluation -> Portfolio Construction -> Backtesting -> Attribution -> Research Memo`
+My background spans quantitative risk analytics, treasury and balance sheet management, and actuarial modeling. My current projects explore volatility forecasting, cross-sectional equity research, and numerical methods in Python and C++.
 
 ## Selected Projects
 
-| Project | Status | Focus |
+| Project | What to explore | Status |
 | --- | --- | --- |
-| [Systematic Alpha Lab](https://github.com/SRG-eddieliu/systematic-alpha-lab) | In progress | AI-assisted systematic research platform |
-| [OptionPricer](https://github.com/SRG-eddieliu/OptionPricer) | Demo-ready | C++ derivatives pricing engine |
-| RNN Volatility Lab | In progress | Volatility forecasting |
-| Transformer SAC Portfolio Allocation | Planned | Reinforcement learning allocation research |
-| Earnings Call NLP Alpha | Planned | Financial NLP alpha research |
-| Financial Statement Integrity Factor | Planned | Fundamental/forensic factor research |
+| [RNN Volatility Lab](https://github.com/SRG-eddieliu/rnn-volatility-lab) | GARCH, LSTM/GRU, hybrid variance forecasts, and model diagnostics | Research prototype; benchmark revision pending |
+| [OptionPricer](https://github.com/SRG-eddieliu/OptionPricer) | C++20 pricing engines: Black-Scholes, trees, Monte Carlo, and American exercise | Engineering project with worked examples; numerical test suite planned |
+| [Systematic Alpha Lab](https://github.com/SRG-eddieliu/systematic-alpha-lab) | Python data pipelines, factor diagnostics, and signal combination | Research toolkit with a synthetic workflow |
+
+Each repository separates implemented components, evaluation limitations, and planned work. The synthetic examples demonstrate workflow mechanics, not evidence of profitable trading.
+
+## Research Interests
+
+- Volatility forecasting and derivatives
+- Cross-sectional equity signals and financial data quality
+- Time-series modeling and out-of-sample evaluation
+- Reusable research tools in Python and C++
 
 ## Background
 
-- UC Berkeley Master of Financial Engineering
-- Rotman Master of Finance
-- Waterloo Mathematics
-- CFA Charterholder
-- Associate of the Society of Actuaries
+- UC Berkeley, Master of Financial Engineering
+- University of Toronto, Rotman, Master of Finance
+- University of Waterloo, Mathematics
+- CFA Charterholder and ASA
+
+The earlier `quantlab_step*` repositories are retained as standalone development history. Start with [Systematic Alpha Lab](https://github.com/SRG-eddieliu/systematic-alpha-lab) for the consolidated implementation.
