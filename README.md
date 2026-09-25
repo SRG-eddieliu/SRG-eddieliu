@@ -1,10 +1,7 @@
 # Eddie Liu
+Quantitative research, data science, AI
 
-Quantitative research, derivatives pricing, and financial data engineering.
-
-UC Berkeley MFE | CFA Charterholder | Associate of the Society of Actuaries
-
-My background spans quantitative risk analytics, treasury and balance sheet management, and actuarial modeling. My current projects explore volatility forecasting, cross-sectional equity research, and numerical methods in Python and C++.
+My background spans quantitative research, treasury and actuarial modeling. My current projects explore volatility forecasting, cross-sectional equity research, and numerical methods in Python and C++.
 
 ## Selected Projects
 
@@ -28,4 +25,5 @@ Each repository separates implemented components, evaluation limitations, and pl
 - UC Berkeley, Master of Financial Engineering
 - University of Toronto, Rotman, Master of Finance
 - University of Waterloo, Mathematics
-- CFA Charterholder and ASA
+- CFA Charterholder
+- Associate of the Society of Actuaries (ASA)
