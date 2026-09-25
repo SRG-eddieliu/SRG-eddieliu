@@ -10,7 +10,7 @@ My background spans quantitative risk analytics, treasury and balance sheet mana
 
 | Project | What to explore | Status |
 | --- | --- | --- |
-| [RNN Volatility Lab](https://github.com/SRG-eddieliu/rnn-volatility-lab) | Controlled GARCH/LSTM/GRU comparison, loss-function tradeoffs and temporal uncertainty | Corrected historical study; offline demo and regression tests; single-seed limits disclosed |
+| [RNN Volatility Lab](https://github.com/SRG-eddieliu/rnn-volatility-lab) | [Research report](https://github.com/SRG-eddieliu/rnn-volatility-lab/blob/main/reports/volatility-final-report.pdf): GARCH/LSTM/GRU comparison, loss-function tradeoffs and temporal uncertainty | Historical walk-forward study; offline demo and regression tests; single-seed limits disclosed |
 | [OptionPricer](https://github.com/SRG-eddieliu/OptionPricer) | C++20 pricing engines: analytical, trees, Monte Carlo and American exercise | 11 numerical regression cases; CMake/CTest and Linux/macOS CI |
 | [Systematic Alpha Lab](https://github.com/SRG-eddieliu/systematic-alpha-lab) | Financial data, factor diagnostics, signal combination and release-time checks | Tested synthetic workflow; financial-quality market study pending data validation |
 
@@ -29,5 +29,3 @@ Each repository separates implemented components, evaluation limitations, and pl
 - University of Toronto, Rotman, Master of Finance
 - University of Waterloo, Mathematics
 - CFA Charterholder and ASA
-
-The earlier `quantlab_step*` repositories are retained as standalone development history. Start with [Systematic Alpha Lab](https://github.com/SRG-eddieliu/systematic-alpha-lab) for the consolidated implementation.
